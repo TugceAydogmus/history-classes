@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:wght@300;400;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a { 
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+}
+.active {
+    color: #c0b8f7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+body , html {
+    overflow-x: hidden;
+    background-color: #f0c26a;
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8a0000;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navbar h1 {
+    text-indent: 20px;
+    padding: 20px 30px 5px;
+    text-transform: uppercase;
+    color: beige;
+    letter-spacing: 5px;
+    line-height: 15px;
+    background-color: #8a0000;
+}    
+.navbar li {
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #0b1832;
+}
+.row {
+    float: center;
+    padding: 10px;
+}
+.row.leftcolumn {
+    width: 25%;
+}
+.row.rightcolumn {
+    width: 75%;
+    position: right;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .row.leftcolumn, .row.rightcolumn {
+        width: 100%;
+    }
+}
+
+
