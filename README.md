@@ -1,2 +1,3 @@
-# First Project
-First step to start learning web site programming. 
+# History Classes
+
+In this project, all about history from political history classes of international relations.
