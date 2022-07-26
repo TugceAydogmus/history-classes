@@ -1,6 +1,6 @@
 # HTML History Classes
 
-It is created using html and css. It is a simple website where you can find lectures and articles on history.
+It is created using HTML and CSS. It is a simple website where you can find lectures and articles on history.
 
 You can find articles related to the information you are looking for in the Archive section. In the course section, simple lecture instructions are available. Individual uploads can be made with the blog section.
 
